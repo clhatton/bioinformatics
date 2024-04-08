@@ -74,7 +74,8 @@ RUN pip install --upgrade pip && \
     duckdb \
     karyopype \
     seaborn \
-    polars
+    polars \
+    datashader
     
 RUN pip install pynndescent==0.5.8 --force-reinstall
 
