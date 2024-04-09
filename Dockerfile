@@ -75,7 +75,16 @@ RUN pip install --upgrade pip && \
     karyopype \
     seaborn \
     polars \
-    datashader
+    datashader \
+    holoviews \
+    hvplot \ 
+    colorcet \
+    lumen \
+    geoviews \ 
+    param \
+    plotly \
+    pygal \ 
+    altair
     
 RUN pip install pynndescent==0.5.8 --force-reinstall
 
